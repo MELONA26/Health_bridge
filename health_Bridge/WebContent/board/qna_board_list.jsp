@@ -62,7 +62,7 @@ table {
 
 	<section id="listForm">
 		<h2>커뮤니티</h2>
-		<button value="글쓰기" onclick="boardWriteForm.bo" style="float:right;margin-bottom:25px" >글쓰기</button>
+		<a href="boardWriteForm.bo"><button value="글쓰기" style="float:right;margin-bottom:25px" >글쓰기</button></a>
 		<table>
 			<% if(articleList != null && listCount > 0){%>
 
